@@ -1,0 +1,92 @@
+.mother{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.children{
+    color: white;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+.move{
+    position: relative;
+    left: 430px;
+}
+
+.mother2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mother2child1{
+    display: flex;
+    justify-content: center;
+}
+
+.mother2child2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.mother3{
+    display: flex;
+    justify-content: center;
+}
+
+.children3{
+    color: white;
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+}
+
+.children3-1{
+    position: relative;
+    bottom: 325px;
+}
+
+.mother4{
+    height: 100vh;
+    position: relative;
+}
+
+.children4{
+    color: white;
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 125px;
+    top: 125px;
+}
+
+.mother5{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.children5{
+    align-self: flex-end;
+    color: white;
+    background-color: gray;
+    width: 900px;
+    height: 400px;
+    position: relative;
+}
+
+.children5-1{
+    position: absolute;
+    bottom: 0px;
+}
+
+.children5-2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
